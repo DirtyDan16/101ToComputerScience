@@ -15,4 +15,14 @@
     <style name="Theme._101ToComputerScience.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme._101ToComputerScience.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewForMenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/material_dynamic_primary10</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">8dp</item>
+    </style>
 </resources>
+
