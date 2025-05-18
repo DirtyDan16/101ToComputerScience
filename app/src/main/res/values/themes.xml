@@ -16,6 +16,7 @@
 
     <style name="Theme._101ToComputerScience.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- ~~~~~~~~~~~~~~~~~~~~TEXT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <style name="TextViewForMenu">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -23,6 +24,17 @@
         <item name="android:textColor">@color/material_dynamic_primary10</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
     </style>
+
+    <style name="HeaderText">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/material_dynamic_primary20</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 </resources>
 

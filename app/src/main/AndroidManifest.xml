@@ -14,28 +14,37 @@
         android:theme="@style/Theme._101ToComputerScience"
         tools:targetApi="31">
         <activity
-            android:exported="false"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.Extras" />
+            android:name=".Activities.LessonForLoops"
+            android:exported="false" />
         <activity
-            android:exported="false"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.CareerPath" />
+            android:name=".Activities.LessonIfStatements"
+            android:exported="false" />
         <activity
+            android:name=".Activities.LessonDataTypes"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Extras"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CareerPath"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HistoryOfLanguages"
             android:exported="false"
             android:label="@string/title_activity_history_of_languages"
-            android:theme="@style/Theme._101ToComputerScience.NoActionBar"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.HistoryOfLanguages" />
+            android:theme="@style/Theme._101ToComputerScience.NoActionBar" />
         <activity
-            android:exported="false"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.MotivesForApp" />
+            android:name=".Activities.MotivesForApp"
+            android:exported="false" />
         <activity
-            android:exported="false"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.LearningLanguages" />
+            android:name=".Activities.LearningLanguages"
+            android:exported="false" />
         <activity
-            android:exported="false"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.Menu" />
+            android:name=".Activities.Menu"
+            android:exported="false" />
         <activity
-            android:exported="true"
-            android:name="stav.gordeev.a101tocomputerscience.Activities.WelcomePage">
+            android:name=".Activities.WelcomePage"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

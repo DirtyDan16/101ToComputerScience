@@ -91,4 +91,15 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="introduction_to_activity_learning_languages">
+"In here I\'ll cover a little about basic programming concepts.
+
+I will talk about the idea of Data Types and Variables, If Statements, and Loops.
+
+Each topic has a dedicated button you can click on to go to.
+
+There, you will be taught, and tested about the concept you've learned about.
+
+Give it a go!"
+    </string>
 </resources>
