@@ -10,13 +10,6 @@ import androidx.core.view.WindowInsetsCompat
 import stav.gordeev.a101tocomputerscience.R
 
 class Menu : AppCompatActivity() {
-    //The Different intents to the other activities
-    lateinit var intentToLearningLanguages: Intent
-    lateinit var intentToExtras: Intent
-    lateinit var intentToHistory: Intent
-    lateinit var intentToMotives: Intent
-    lateinit var intentToCareerPath: Intent
-
     //The different button icons leading to the other activities
     lateinit var b_to_learning_languages: ImageButton
     lateinit var b_to_extras: ImageButton
@@ -48,11 +41,6 @@ class Menu : AppCompatActivity() {
         b_to_history = findViewById(R.id.b_to_history)
         b_to_motives = findViewById(R.id.b_to_motives)
         b_to_career_path = findViewById(R.id.b_to_career_path)
-        intentToLearningLanguages = Intent(this, LearningLanguages::class.java)
-        intentToExtras =Intent(this, Extras::class.java)
-        intentToHistory =Intent(this, HistoryOfLanguages::class.java)
-        intentToMotives = Intent(this, MotivesForApp::class.java)
-        intentToCareerPath = Intent(this, CareerPath::class.java)
     }
 
     /**
@@ -60,18 +48,23 @@ class Menu : AppCompatActivity() {
      */
     private fun initLinkingButtonsToTheirActivities() {
         b_to_learning_languages.setOnClickListener {
+            val intentToLearningLanguages = Intent(this, LearningLanguages::class.java)
             startActivity(intentToLearningLanguages)
         }
         b_to_extras.setOnClickListener {
+            val intentToExtras =Intent(this, Extras::class.java)
             startActivity(intentToExtras)
         }
         b_to_history.setOnClickListener {
+            val intentToHistory =Intent(this, HistoryOfLanguages::class.java)
             startActivity(intentToHistory)
         }
         b_to_motives.setOnClickListener {
+            val intentToMotives = Intent(this, MotivesForApp::class.java)
             startActivity(intentToMotives)
         }
         b_to_career_path.setOnClickListener {
+            val intentToCareerPath = Intent(this, CareerPath::class.java)
             startActivity(intentToCareerPath)
         }
     }

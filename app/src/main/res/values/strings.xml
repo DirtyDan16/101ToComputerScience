@@ -102,4 +102,84 @@ There, you will be taught, and tested about the concept you've learned about.
 
 Give it a go!"
     </string>
+    <string name="lesson_variables_explanation">
+        "So, what are Variables?"
+        "Variables are used to store information, which can be about anything!\n\n"
+
+        "Storing information serves us for many stuff, such as helping us do logic we want to do, depending on the value of the variable\n"
+        "they have a name, an \"ID\" of sorts, which lets the programmer tell apart from one variable to another.\n"
+
+        "Typically, we define variables like this:"
+        "var variableName: Type = value\n\n"
+
+        "We need to highlight to the computer that we are creating a new \'ID\', and we do that with the [var] keyword.\n\n"
+
+        "There are different types of variables - there are those that store numbers, those that can store text, and so on. We tell the type to the computer so it can"
+        "differentiate between the different types, and we\'ll write the name in place of [Type]\n\n"
+
+        "There are many types, but we will only mention some\n"
+
+        "[value] is where we assign the variable with the information. Note that we can change the value the variable holds later on! as we wish!\n\n\n"
+
+        "Examples:\n"
+        "var numberOfApples: int = 4\n"
+        "var priceForASoda: double = 15.6\n"
+        "var nameOfAuthor: String = \"Stephen King\"\n\n"
+
+        "In the first example, we've created a variable that can hold integers, and put into it the value 4, in the second example, we created a variable that holds"
+        "a decimal number and its value is 15.6, and finally, in the third example, the variable holds a sentence, and its value is \"Stephen King\"."
+    </string>
+
+    <string name="lesson_if_else_explanation">
+    "Let’s talk about something very important in programming - logic!\n"
+    "We can make decisions in our code by using [if] statements.\n\n"
+
+    "[if] allows us to ask a question, and if the answer is true - we do something!\n"
+    "We can also use [else] to do something different, if the answer is false.\n\n"
+
+    "The structure looks like this:"
+    "if (condition) {\n"
+    "    // do something\n"
+    "} else {\n"
+    "    // do something else\n"
+    "}\n\n"
+
+    "The [condition] is something that results in either true or false.\n"
+    "For example: [if (score > 10)] checks if the score is greater than 10.\n"
+
+    "If that’s true, we enter the first block. If it’s false, we go to the [else] block.\n\n"
+
+    "Example:\n"
+    "if (age >= 18) {\n"
+    "    println(\"You can enter\")\n"
+    "} else {\n"
+    "    println(\"You cannot enter\")\n"
+    "}\n\n"
+
+    "This checks if the age is at least 18. If it is, we have something that can print to the screen that the person can enter."
+    </string>
+
+    <string name="lesson_for_loop_explanation">
+    "What if we want to repeat something many times?\n"
+    "That’s where \'for loops\' come in!\n\n"
+
+    "for loops allow us to run code again and again, in a structured way.\n"
+    "Usually, we repeat over a range of numbers, or over items in a list.\n\n"
+
+    "The structure is simple:"
+    "for (item in something) {\n"
+    "    // do something\n"
+    "}\n\n"
+
+    "We’ll often use [0 until N] to count:\n"
+    "for (i in 0 until 5) {\n"
+    "    println(i)\n"
+    "}\n\n"
+
+    "This loop will print the numbers 0, 1, 2, 3, and 4.\n"
+    "It repeats the block 5 times — once for each number in that range.\n\n"
+
+    "We can use this to do many things: move characters, calculate sums, or run logic multiple times!"
+    </string>
+
 </resources>

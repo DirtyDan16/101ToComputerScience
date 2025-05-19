@@ -11,9 +11,9 @@ import stav.gordeev.a101tocomputerscience.R
 
 class LearningLanguages : AppCompatActivity() {
     // Intents to sub-activities
-    lateinit var intentToLessonDataTypes: Intent
-    lateinit var intentToLessonIfStatements: Intent
-    lateinit var intentToLessonForLoops: Intent
+
+
+
 
     // ImageButtons that lead to each sub-activity (ie the lessons)
     lateinit var bToLessonDataTypes: ImageButton
@@ -29,16 +29,9 @@ class LearningLanguages : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        initializeIntents()
         initializeImageButtons()
     }
 
-    private fun initializeIntents() {
-        intentToLessonDataTypes = Intent(this, LessonDataTypes::class.java)
-        intentToLessonIfStatements = Intent(this, LessonIfStatements::class.java)
-        intentToLessonForLoops = Intent(this, LessonForLoops::class.java)
-    }
 
     private fun initializeImageButtons() {
         bToLessonDataTypes = findViewById(R.id.bToLessonDataTypes)
@@ -46,12 +39,15 @@ class LearningLanguages : AppCompatActivity() {
         bToLessonForLoops = findViewById(R.id.bToLessonForLoops)
 
         bToLessonDataTypes.setOnClickListener {
+            val intentToLessonDataTypes: Intent = Intent(this, LessonDataTypes::class.java)
             startActivity(intentToLessonDataTypes)
         }
         bToLessonIfStatements.setOnClickListener {
+            val intentToLessonIfStatements: Intent = Intent(this, LessonIfStatements::class.java)
             startActivity(intentToLessonIfStatements)
         }
         bToLessonForLoops.setOnClickListener {
+            val intentToLessonForLoops: Intent = Intent(this, LessonForLoops::class.java)
             startActivity(intentToLessonForLoops)
         }
 

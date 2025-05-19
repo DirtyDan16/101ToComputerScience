@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
