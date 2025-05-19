@@ -10,11 +10,6 @@ import androidx.core.view.WindowInsetsCompat
 import stav.gordeev.a101tocomputerscience.R
 
 class LearningLanguages : AppCompatActivity() {
-    // Intents to sub-activities
-
-
-
-
     // ImageButtons that lead to each sub-activity (ie the lessons)
     lateinit var bToLessonDataTypes: ImageButton
     lateinit var bToLessonIfStatements: ImageButton
@@ -31,7 +26,6 @@ class LearningLanguages : AppCompatActivity() {
         }
         initializeImageButtons()
     }
-
 
     private fun initializeImageButtons() {
         bToLessonDataTypes = findViewById(R.id.bToLessonDataTypes)
