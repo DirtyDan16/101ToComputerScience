@@ -25,6 +25,14 @@
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:padding">8dp</item>
         <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Subheader">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/material_dynamic_primary20</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="HeaderText">

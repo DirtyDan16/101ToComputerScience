@@ -5,40 +5,190 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".Activities.WelcomePage">
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView"
-        style="@style/TextViewForMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="344dp"
-        android:text="To Menu"
-        app:layout_constraintEnd_toEndOf="@+id/textView7"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/b_to_menu"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.186"
-        app:srcCompat="@drawable/to_home" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/HeaderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="101 To Computer Science" />
+
+            <TextView
+                android:id="@+id/tvGreetings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:text="@string/greetings"
+                android:textAlignment="center"
+                android:textSize="26dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvUsername"
+                style="@style/Subheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Username:" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="text" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvAge"
+                style="@style/Subheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Age:" />
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvEnterExperience"
+                style="@style/Subheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How experienced are you in coding?:" />
+
+            <RadioGroup
+                android:id="@+id/rgExperiences"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbExperience1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No knowledge" />
+
+                <RadioButton
+                    android:id="@+id/rbExperience2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Know a little" />
+
+                <RadioButton
+                    android:id="@+id/rbExperience3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sometimes work on code" />
+
+                <RadioButton
+                    android:id="@+id/rbExperience4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="experienced" />
+
+                <RadioButton
+                    android:id="@+id/rbExperience5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="very experienced" />
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvExcitedness"
+                style="@style/Subheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From 0 to 10, how excited are you to learn coding?:" />
+
+            <SeekBar
+                android:id="@+id/sbExcitementOfUser"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:min="0"
+                android:progress="5" />
+
+
+            <TextView
+                android:id="@+id/tvExcitementMeter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/bSendUserInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Info" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:id="@+id/tvMenu"
+                style="@style/TextViewForMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="To Menu" />
+
+            <ImageButton
+                android:id="@+id/b_to_menu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/to_home" />
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

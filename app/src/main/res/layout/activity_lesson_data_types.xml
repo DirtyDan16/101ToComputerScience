@@ -29,26 +29,26 @@
 
 
             <TextView
-                android:layout_marginBottom="20dp"
                 android:id="@+id/textView11"
                 style="@style/HeaderText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:text="Variables!" />
 
             <TextView
-                android:layout_marginBottom="20dp"
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:text="\t\t\tLink to video Explaining the topic:"
                 android:textStyle="bold" />
 
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                android:layout_marginBottom="20dp"
                 android:id="@+id/youtube_player_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 app:autoPlay="false"
                 app:videoId="https://www.youtube.com/watch?v=aUMVDMhIEeQ" />
 
@@ -73,5 +73,12 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        app:constraint_referenced_ids="main" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
