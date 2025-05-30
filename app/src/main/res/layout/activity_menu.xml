@@ -7,135 +7,163 @@
     android:layout_height="match_parent"
     tools:context=".Activities.Menu">
 
-    <ImageButton
-        android:id="@+id/b_to_learning_languages"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="79dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="79dp"
-        app:layout_constraintBottom_toTopOf="@+id/b_to_extras"
-        app:layout_constraintEnd_toEndOf="@+id/b_to_extras"
-        app:layout_constraintStart_toEndOf="@+id/b_to_motives"
-        app:layout_constraintTop_toTopOf="@+id/textView3"
-        app:srcCompat="@drawable/to_learning_languages" />
-
-    <TextView
-        android:id="@+id/textView2"
-        style="@style/TextViewForMenu"
+    <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="18dp"
-        android:text="History of\nLanguages"
-        app:layout_constraintBottom_toTopOf="@+id/b_to_history"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <ImageButton
-        android:id="@+id/b_to_extras"
-        android:layout_width="100dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/to_extras" />
-
-    <TextView
-        android:id="@+id/textView5"
-        style="@style/TextViewForMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="223dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="223dp"
-        android:text="Extras"
-        app:layout_constraintBottom_toTopOf="@+id/b_to_motives"
-        app:layout_constraintEnd_toEndOf="@+id/b_to_learning_languages"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <TextView
-        android:id="@+id/textView6"
-        style="@style/TextViewForMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Motives for\n This App"
-        app:layout_constraintBottom_toTopOf="@+id/b_to_motives"
-        app:layout_constraintEnd_toStartOf="@+id/b_to_extras" />
-
-    <ImageButton
-        android:id="@+id/b_to_history"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="79dp"
-        android:layout_marginBottom="79dp"
-        app:layout_constraintBottom_toTopOf="@+id/b_to_career_path"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/b_to_career_path"
-        app:layout_constraintTop_toTopOf="@+id/textView3"
-        app:srcCompat="@drawable/to_history" />
-
-    <ImageButton
-        android:id="@+id/b_to_motives"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="56dp"
+        android:orientation="vertical"
+        android:padding="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/to_motives" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/TextViewForMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="17dp"
-        android:text="Career Path"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_to_history" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textSize="48sp" />
 
-    <ImageButton
-        android:id="@+id/b_to_career_path"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="@+id/b_to_extras"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="@+id/b_to_extras"
-        app:srcCompat="@drawable/to_cs_as_a_job" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        style="@style/TextViewForMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="61dp"
-        android:text="Learning\nLanguages"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical">
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Menu"
-        android:textSize="48sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/TextViewForMenu"
+                        android:layout_width="115dp"
+                        android:layout_height="60dp"
+                        android:text="History of\nLanguages" />
+
+                    <ImageButton
+                        android:id="@+id/b_to_history"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/to_history" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/TextViewForMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learning\nLanguages" />
+
+                    <ImageButton
+                        android:id="@+id/b_to_learning_languages"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/to_learning_languages" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="40dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        style="@style/TextViewForMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Career Path" />
+
+                    <ImageButton
+                        android:id="@+id/b_to_career_path"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/to_cs_as_a_job" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        style="@style/TextViewForMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Extras" />
+
+                    <ImageButton
+                        android:id="@+id/b_to_extras"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/to_extras" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        style="@style/TextViewForMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Motives for\n This App" />
+
+                    <ImageButton
+                        android:id="@+id/b_to_motives"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/to_motives" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
