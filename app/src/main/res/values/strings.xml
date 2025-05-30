@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">101ToComputerScience</string>
     <string name="title_activity_history_of_languages">HistoryOfLanguages</string>
-    <string name="large_text">
-    </string>
     <string name="greetings">"
 Welcome!
 
@@ -125,5 +123,29 @@ In my opinion, everyone should know how to program.
 
 There are a million and one skills that learning software provides, so it is important to me that others also want to enter the world.
     "</string>
+
+
+    <string name="history_of_programming">"
+Every app, game, or website runs because someone wrote instructions for the computer to follow. This is called programming or coding.\n\n
+🔹 <b>The Early Days</b>\n
+The first idea of programming came in the 1800s when Ada Lovelace wrote instructions for a machine that didn\'t even exist yet. Fast forward to the 1940s, real computers were invented—but to program them, people had to write long strings of 1s and 0s. It was painfully slow and easy to mess up.\n\n
+🔹 <b>The First Programming Languages</b>\n\n
+To make coding easier, we created languages that looked more like English:\n\n
+Fortran (1957): For scientific work\n
+COBOL (1959): For business use\n
+Lisp (1958): For early AI\n\n
+These were still hard to learn but much better than pure machine code.\n\n
+🔹 <b>Coding Gets Easier</b>\n\n
+From the 1970s to 1990s, coding became more powerful and user-friendly:\n\n
+C (1972): Used for operating systems\n
+Python (1991): Easy to read, great for beginners\n
+Java and JavaScript (1995): Helped power the web\n\n
+Now, you could write programs without being a computer expert.\n\n
+🔹 <b>Coding Today</b>\n\n
+Today, programming is everywhere—phones, games, cars, websites. New languages like Swift, Kotlin, Rust, and TypeScript help developers build faster, safer, and better apps.\n\n
+And thanks to online tools and communities, anyone can learn to code—no need to be a math genius.\n\n
+🔹 <b>The Future</b>\n\n
+We\'re now entering the era of AI and machine learning, where computers can learn from data. Programming continues to grow—and whether you want to build apps, games, or solve real problems, you can be a part of it. "
+    </string>
 
 </resources>
