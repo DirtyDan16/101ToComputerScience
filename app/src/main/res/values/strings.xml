@@ -107,5 +107,23 @@ Give it a go!"
 
     "We can use this to do many things: move characters, calculate sums, or run logic multiple times!"
     </string>
+    <string name="motives_for_app">"
+- I didn't just choose this idea for a project - programming is something that is very close to my heart, and I see it as extremely fun (except the hundred moments when I want to tear my hair out).
+
+
+Beyond school hours, I engage in a wide variety of software-related activities - I have designed and built games (via Godot, or Minecraft Plugins), I am on the robotics team in a software group studying and researching robot code, I take courses at the Open University of Israel, and generally in my free time I watch educational videos about programming on a wide variety of topics.
+
+I would like to share this passion with the outside world, so I see this project as a good opportunity for that! (:
+
+
+- I see software as a very powerful tool that serves a person along the way; beyond the fact that it is a strong and powerful career, it is also used for basic personal needs for everyday life, for example, for building personal websites, or for solving problems for questions that a computer is good at doing, but a person is not.
+
+In my opinion, everyone should know how to program.
+
+
+- Beyond the practicality of knowing how to program, software strengthens the power of thought - you learn to analyze and break down large problems into small parts, you learn to think algorithmically, you develop great creativity and learn how to be patient in situations where things do not go the way you would like them to, and to know how to adapt to unexpected situations.
+
+There are a million and one skills that learning software provides, so it is important to me that others also want to enter the world.
+    "</string>
 
 </resources>
