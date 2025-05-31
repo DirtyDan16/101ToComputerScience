@@ -148,4 +148,72 @@ And thanks to online tools and communities, anyone can learn to code—no need t
 We\'re now entering the era of AI and machine learning, where computers can learn from data. Programming continues to grow—and whether you want to build apps, games, or solve real problems, you can be a part of it. "
     </string>
 
+
+
+
+    <string name="description_of_job_1">
+"What it is:
+You build apps, websites, or software tools — like games, mobile apps, or even bank systems.
+
+What you do:
+
+Write code that tells the computer what to do.
+
+Work in a team to design and improve programs.
+
+Fix problems (called bugs) when things break."
+</string>
+
+    <string name="description_of_job_2">
+"What it is:
+You help companies use their data to find useful patterns or make smart decisions. Sometimes you even build AI like recommendation systems (like on YouTube or Netflix).
+
+What you do:
+
+Collect and organize large amounts of information.
+
+Use math to find trends or make predictions.
+
+Help companies understand what the data is saying."
+</string>
+
+    <string name="description_of_job_3">
+"What it is:
+You protect computers and data from hackers and viruses.
+
+What you do:
+
+Find weaknesses in systems before bad people do.
+
+Build safer login systems, firewalls, and alerts.
+
+Respond to cyber attacks and prevent future ones."
+</string>
+
+    <string name="description_of_job_4">
+"What it is:
+You make sure all the company’s technology (like servers, internet, and cloud services) runs without problems.
+
+What you do:
+
+Set up computers, servers, and cloud systems.
+
+Help fix tech problems in the company.
+
+Make sure websites and apps stay online all the time."
+</string>
+
+    <string name="description_of_job_5">
+"What it is:
+You work on making games, simulations, or 3D animations — either for fun or for serious use (like training pilots).
+
+What you do:
+
+Build game logic, player controls, and levels.
+
+Work with designers and artists to bring ideas to life.
+
+Make sure games run fast and look great."
+</string>
+
 </resources>

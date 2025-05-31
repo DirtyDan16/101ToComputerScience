@@ -40,6 +40,10 @@
                 android:layout_height="wrap_content"
                 android:text="Links to sources where you can start learning programming by yourself:" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
             <LinearLayout
                 android:id="@+id/linksToDifferentLearningSources"
                 android:layout_width="match_parent"

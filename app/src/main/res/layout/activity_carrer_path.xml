@@ -7,4 +7,108 @@
     android:layout_height="match_parent"
     tools:context=".Activities.CareerPath">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/textView22"
+                style="@style/HeaderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Job Market" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:id="@+id/descriptionsOfDifferentCSJobs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvJobName"
+                    style="@style/Subheader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Software Development (App and Website Building)" />
+
+                <TextView
+                    android:id="@+id/tvJob1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:text="@string/description_of_job_1"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvJobName2"
+                    style="@style/Subheader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data Science and AI (Working with Data and Smart Systems)" />
+
+                <TextView
+                    android:id="@+id/tvJob2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:text="@string/description_of_job_2"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvJobName3"
+                    style="@style/Subheader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cybersecurity (Keeping Systems Safe)" />
+
+                <TextView
+                    android:id="@+id/tvJob3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:text="@string/description_of_job_3"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvJobName4"
+                    style="@style/Subheader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IT and Cloud Systems (Keeping Things Running Smoothly)" />
+
+                <TextView
+                    android:id="@+id/tvJob4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:text="@string/description_of_job_4"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvJobName5"
+                    style="@style/Subheader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Game Development and Graphics (Making Games and Visuals)" />
+
+                <TextView
+                    android:id="@+id/tvJob5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:text="@string/description_of_job_5"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
