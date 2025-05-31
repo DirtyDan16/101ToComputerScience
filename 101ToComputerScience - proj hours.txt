@@ -1,0 +1,8 @@
+23,25/4/25. for a total of around 5 to 6 hours //added project proposal - basically a docs that talks about the idea of the project
+12/5/25. 22 - 23.5 //Setting base project. adding structure.
+16/5/25. 15-16,18.5-19.5,22.5-24.5 //adding the Menu Activity.
+18/5/25. 21.5-22 //added the menu for the learning to code activity (don't ask why it took so long)
+19/5/25. 20-24.5 //added content to lesson activities that talk about a basic cs concept (variables,if-else,for loops) - each activity includes a youtube video and text explaining the topic
+23/5/25. 17-19.5 //added a small survey asking questions such as level of knowledge of the user in the main page.
+28/5/25. 15-16.5 //Extras page
+30/5/25. 20-28 //Literally everything for the last day lol - added CareerPath,Motives,Extras,HistoryOfLanguages activities, made the Menu activity better looking, and wrote self reflection to the project.
