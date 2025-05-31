@@ -44,7 +44,7 @@
                 android:layout_marginBottom="50dp"
                 android:text="@string/greetings"
                 android:textAlignment="center"
-                android:textSize="26dp" />
+                android:textSize="26sp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -156,6 +156,7 @@
                 android:id="@+id/tvExcitementMeter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="5"
                 android:textAlignment="center"
                 android:textSize="24sp" />

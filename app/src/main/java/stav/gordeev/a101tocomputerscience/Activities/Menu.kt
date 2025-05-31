@@ -79,13 +79,13 @@ class Menu : AppCompatActivity() {
         playClickSound()
         // make the button the capability to navigate to a different activity, depending on the button's id
         when (button.id) {
-            R.id.b_to_history -> {
+            R.id.b_to_learning_languages -> {
                 val intentToLearningLanguages = Intent(this, LearningLanguages::class.java)
                 startActivity(intentToLearningLanguages)
             }
-            R.id.b_to_learning_languages -> {
-                val intentToExtras =Intent(this, Extras::class.java)
-                startActivity(intentToExtras)
+            R.id.b_to_history -> {
+                val intentToHistoryOfLanguages = Intent(this, HistoryOfLanguages::class.java)
+                startActivity(intentToHistoryOfLanguages)
             }
             R.id.b_to_career_path -> {
                 val intentToCareerPath = Intent(this, CareerPath::class.java)
